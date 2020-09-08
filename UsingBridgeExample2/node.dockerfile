@@ -1,10 +1,3 @@
-# Build: docker build -f node.dockerfile -t basantpandey/node .
-
-# Option 1
-# Start MongoDB and Node (link Node to MongoDB container with legacy linking)
- 
-# docker run -d --name my-mongodb mongo
-# docker run -d -p 3000:3000 --link my-mongodb:mongodb --name nodeapp basantpandey/node
 
 # Option 2: Create a custom bridge network and add containers into it
 
