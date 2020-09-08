@@ -4,12 +4,12 @@ Bootcamp to use Docker ant its example. Here are the some of the basic Docker co
 
 ## Docker Client Image Commands
 
-docker pull [image name]
-docker images
-docker rmi [image ID]
+1. docker pull [image name]
+2. docker images
+3. docker rmi [image ID]
 
 ## Docker Client Container Commands
 
-docker run [image name]
-docker ps -a
-docker rm [container ID]
+1. docker run [image name]
+2. docker ps -a
+3. docker rm [container ID]
